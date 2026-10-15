@@ -1,0 +1,21 @@
+name: rnaseq-airway
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - curl
+  - fastqc=0.12
+  - trimmomatic=0.39
+  - hisat2=2.2
+  - samtools=1.20
+  - subread=2.0
+  - multiqc=1.25
+  - pandas=2.2
+  - numpy=1.26
+  - matplotlib=3.9
+  - jupyterlab=4.2
+  - ipykernel
+  - pip
+  - pip:
+      - pydeseq2==0.5.4

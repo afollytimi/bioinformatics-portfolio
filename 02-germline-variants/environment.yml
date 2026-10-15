@@ -1,0 +1,16 @@
+name: germline-variants
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - curl
+  - samtools=1.20
+  - bcftools=1.20
+  - htslib=1.20
+  - ensembl-vep=110
+  - pandas=2.2
+  - numpy=1.26
+  - matplotlib=3.9
+  - jupyterlab=4.2
+  - ipykernel

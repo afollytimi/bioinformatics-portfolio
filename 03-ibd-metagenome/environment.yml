@@ -1,0 +1,16 @@
+name: ibd-metagenome
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - curl
+  - kraken2=2.1
+  - bracken=2.9
+  - pandas=2.2
+  - numpy=1.26
+  - scipy=1.13
+  - statsmodels=0.14
+  - matplotlib=3.9
+  - jupyterlab=4.2
+  - ipykernel

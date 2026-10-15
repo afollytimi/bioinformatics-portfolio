@@ -1,0 +1,35 @@
+# Large data and references are never committed
+data/
+reference/
+**/data/
+**/reference/
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.k2d
+*.kraken
+**/results/trimmed/
+**/results/bam/
+**/results/kraken/
+**/logs/
+
+# Python and Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# OS clutter
+.DS_Store
+
+# Third-party metadata and run lists are fetched, not committed
+**/config/hmp2_metadata.csv
+**/config/ena_runs.tsv
